@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+#userChoices{
+    display: flex;
+    justify-content: space-around;
+}
+#userChoices div{
+    width: 15%;
+    transition: ease-in-out .2s;
+}
+
+#userChoices div img{
+    width: 100%;
+}
+
+#botChoices{
+    border: black 2px solid;
+    width: 20%;
+    padding: 5rem;
+    font-size: 3rem;
+}
+#resultats{
+    font-size: 2rem;
+}
